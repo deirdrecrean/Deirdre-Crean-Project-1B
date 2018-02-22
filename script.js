@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $("#overlay-show").click(function(){
+        $("#overlay").fadeIn();
+    });
+    $(".close").click(function(){
+        $("#overlay").fadeOut();
+    });
+    $(".title").click(function(){
+       $(".lyrics").slideToggle();
+    });
+});
