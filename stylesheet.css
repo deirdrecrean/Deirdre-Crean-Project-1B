@@ -17,8 +17,14 @@ header li:hover {
   transform: translateY(-5px);
   transition: .3s all; }
 
-.lyrics {
+.what .title {
+  border-radius: 0;
+  color: #ff2264;
+  font-size: 15px; }
+.what .lyrics {
   display: none; }
+.what .lyrics.visible {
+  display: block; }
 
 #overlay {
   display: none;
@@ -47,7 +53,8 @@ footer #socials {
   position: fixed;
   bottom: 0px;
   left: 50%;
-  transform: translateX(-50%); }
+  transform: translateX(-50%);
+  overflow: auto; }
   footer #socials li {
     list-style: none;
     display: inline-block;
