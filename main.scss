@@ -32,10 +32,11 @@ header {
     }
 }
 .what{
+    text-align: center;
     .title{
     border-radius: 0;
     color: $main-color;
-    font-size: 15px;   
+    font-size: 15px;
 }
     .lyrics {
     display: none;
@@ -43,7 +44,18 @@ header {
 .lyrics.visible{
     display: block;
 }
-
+    .left{
+        float: left;
+        margin-left: 100px;
+        max-width: 200px;
+        
+    }
+    .right{
+        max-width: 200px;
+        float: right;
+        margin-right: 100px;
+      
+    }
 }
 
 #overlay {

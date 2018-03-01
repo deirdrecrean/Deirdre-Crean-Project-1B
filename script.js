@@ -20,7 +20,7 @@ $(document).ready(function(){
             $(this).html("Show More");
         }
 
-        
+        do this with the welcome icon
         
         
         */

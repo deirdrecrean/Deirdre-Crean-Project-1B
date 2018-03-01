@@ -17,14 +17,24 @@ header li:hover {
   transform: translateY(-5px);
   transition: .3s all; }
 
-.what .title {
-  border-radius: 0;
-  color: #ff2264;
-  font-size: 15px; }
-.what .lyrics {
-  display: none; }
-.what .lyrics.visible {
-  display: block; }
+.what {
+  text-align: center; }
+  .what .title {
+    border-radius: 0;
+    color: #ff2264;
+    font-size: 15px; }
+  .what .lyrics {
+    display: none; }
+  .what .lyrics.visible {
+    display: block; }
+  .what .left {
+    float: left;
+    margin-left: 100px;
+    max-width: 200px; }
+  .what .right {
+    max-width: 200px;
+    float: right;
+    margin-right: 100px; }
 
 #overlay {
   display: none;
